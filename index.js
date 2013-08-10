@@ -35,7 +35,7 @@ var util = require('util'),
 // Setup proxy server with forwarding
 //
 //httpProxy.createServer(9000, 'localhost', {
-httpProxy.createServer(80, 'docs.google.com', {
+httpProxy.createServer(443, 'docs.google.com', {
   forward: {
     port: 9001,
     host: 'localhost'
